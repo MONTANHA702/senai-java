@@ -1,13 +1,15 @@
+
+
 public class HoraDoze {
     public static void main(String[] args) {
        
-        Agendamento agendaHoje = new Agendamento();
-        Professor novoProfessor = new Professor();
+        Agendamento agendaHoje = new Agendamento("Dentista", 10);
+        Professor novoProfessor = new Professor("José", 45, "Mestrado");
 
         novoProfessor.mostrarDados();
-        System.out.println("Agenda de hoje: " + agendaHoje.local);
-        System.out.println("Horário: " + agendaHoje.hora +"h");
+        agendaHoje.mostrarAgenda();
         System.out.println("==========");
+
 
 
         }
