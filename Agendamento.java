@@ -7,7 +7,7 @@ public class Agendamento {
 
     }
 
-    public Agendamento(String compromisso, int hora) {
+        public Agendamento(String compromisso, int hora) {
         this.compromisso = compromisso;
         this.hora = hora;
     }
