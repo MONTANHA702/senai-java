@@ -13,10 +13,6 @@ public class HoraDoze {
         novoAmbiente.mostrarAmbiente();
         agendaHoje.mostrarAgenda();
         System.out.println("==========");
-
-    
-
-
         
         }
 
